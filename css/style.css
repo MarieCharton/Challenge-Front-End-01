@@ -82,13 +82,12 @@ body{
 label::after{
     content:url("../images/icon-arrow-down.svg");
     cursor: pointer;
-    justify-content: space-between;
   }
   ::after{
       padding-left: 50px;
   }
   
-  input:checked ~  #essai{
+  input:checked ~ #essai-1{
       font-weight: bold;
   }
 
@@ -96,7 +95,7 @@ label::after{
       
   }
 
-  input:checked ~ .pipi{
+  input:checked ~ .answer{
       display: inline;
   }
 
