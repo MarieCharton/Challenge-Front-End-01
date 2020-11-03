@@ -16,7 +16,6 @@
 
 
 body{
-    /* background: linear-gradient(#9157C0,#8DC5E7); */
     background-image: linear-gradient(var(--soft-violet), var(--soft-blue));
     font-family: 'Kumbh Sans', sans-serif;
 }
@@ -44,6 +43,12 @@ body{
     /* background-color: blue; */
     width: 40%;
     margin: auto;
+}
+#woman{
+    display: none;
+}
+#mobile-pattern{
+    display: none;
 }
 #pattern{
     width: 50%;
@@ -74,3 +79,38 @@ body{
     /* transform: rotate(180deg); */
 }
 
+/* Media queries  */
+@media (max-width:767px){
+    #wrapper{
+        width:80%;
+        height: 600px;
+        margin: 10em auto;
+        padding: 25px 0 50px 0;
+    }
+    .images{
+        display: none;
+
+    }
+    #woman{
+        display: inline;
+        position: absolute;
+        left:16%;
+        top: -16%;
+    }
+    #mobile-pattern{        
+        display: inline;
+        position: absolute;
+        left:23%;
+        top: 0%;
+
+    }
+    .faq{
+        width: 80%;
+        margin: auto;
+        font-size: 1em;
+    }
+    h1{
+        text-align: center;
+        font-size: 3em;
+    }
+  }
