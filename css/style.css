@@ -75,7 +75,7 @@ body{
 #checkbox{
     display: none;
 }
-.pipi{
+.answer{
     display: none;
 }
 
@@ -93,7 +93,7 @@ label::after{
   }
 
   input:checked ~ #essai::after{
-      transform: rotate(180deg);
+      
   }
 
   input:checked ~ .pipi{
