@@ -126,7 +126,7 @@ input:checked ~ label{
     #woman{
         display: inline;
         position: absolute;
-        left:16%;
+        left:5%;
         top: -16%;
     }
     #mobile-pattern{        
